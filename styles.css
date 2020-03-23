@@ -1,0 +1,178 @@
+#title{
+  background-color: #ff4c68;
+}
+title{
+  font-family: 'Ubuntu';
+}
+.title{
+  font-family: 'Montserrat-black', sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom:8%;
+}
+.rotate{
+  transform: rotate(30deg);
+  position: absolute;
+  right: 30%;
+  width: 55%;
+  min-width: 35%;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  color: #fff;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+.navbar{
+  padding-left: 0;
+  padding-right: 0;
+}
+.dwn{
+  margin:5% 3% 5% 0;
+}
+#features{
+  position: relative;
+  z-index: 1;
+  background-color: white;
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  padding: 7% 15%;
+}
+.icon{
+  color: #ef8172;
+  font-size: 5rem;
+  padding: 2rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.h{
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.par{
+color: #8f8f8f;
+width: 45%;
+margin: 0 auto 0 auto;
+}
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+
+}
+.woof{
+  width: 10%;
+  border-radius: 100%;
+  padding-top: 2rem;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding:3rem;
+}
+.com{
+  width: 15%;
+  padding: 0 3%;
+}
+.carousel-item{
+  padding: 7% 20%;
+}
+#pricing{
+  text-align: center;
+  padding: 7% 10%;
+}
+.card{
+  border: 1px solid #dcffcc;
+  border-radius: 0.3rem;
+}
+.card:hover{
+  border: 1px solid #1d87da;
+}
+.deck{
+  padding:7% 15%;
+}
+.card-header{
+  background-color:  #dcffcc;
+}
+.head{
+  color: black;
+}
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+  padding:2%;
+}
+.foot{
+  font-family: 'Montserrat-black';
+  font-weight: 600;
+  color: white;
+  font-size: 3.5rem;
+  padding: 7% 15% 3% 15%;
+  line-height: 1.5;
+}
+.btnf{
+  margin-top: 0%;
+}
+#footer{
+  text-align: center;
+  padding: 3% 15%;
+}
+.ic{
+  padding:0 0.5% 1% 0.5%;
+}
+@media(max-width: 1080px){
+  .rotate{
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+    width: 50%;
+    min-width: 40%;
+
+  }
+  .title{
+    font-family: 'Montserrat-black', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+  #title{
+    text-align: center;
+  }
+  #press{
+    background-color: #ef8172;
+    text-align: center;
+    padding:1rem;
+  }
+  .pressh{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1;
+  }
+  .woof{
+    width: 25%;
+    border-radius: 100%;
+    padding-top: 2.5rem;
+  }
+  .container-fluid{
+    padding: 3% 7%;
+    padding-bottom:8%;
+  }
+}
